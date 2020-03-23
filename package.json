@@ -1,6 +1,6 @@
 {
-  "name": "vessel",
-  "productName": "vessel",
+  "name": "vessel-steem",
+  "productName": "vessel-steem",
   "version": "0.3.0",
   "description": "A simple wallet for managing your Steem accounts.",
   "scripts": {
@@ -33,8 +33,8 @@
   },
   "browserslist": "electron 1.8",
   "build": {
-    "productName": "Vessel",
-    "appId": "com.greymass.vessel",
+    "productName": "Vessel-Steem",
+    "appId": "com.greymass.vessel-steem",
     "files": [
       "dist/",
       "node_modules/",
@@ -48,8 +48,7 @@
         "name": "steem",
         "role": "Viewer",
         "schemes": [
-          "steem",
-          "vessel"
+          "steem"
         ]
       }
     ],
@@ -80,10 +79,10 @@
     "linux": {
       "category": "Network",
       "desktop": {
-        "Name": "vessel",
+        "Name": "vessel-steem",
         "Version": "0.3.0",
         "GenericName": "Steem Client",
-        "X-GNOME-FullName": "vessel",
+        "X-GNOME-FullName": "vessel-steem",
         "Comment": "A simple wallet for managing your Steem accounts.",
         "Type": "Application",
         "Terminal": "false",
@@ -104,7 +103,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aaroncox/vessel.git"
+    "url": "git+https://github.com/aaroncox/vessel-steem.git"
   },
   "author": {
     "name": "Aaron Cox",
@@ -113,14 +112,14 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aaroncox/vessel/issues"
+    "url": "https://github.com/aaroncox/vessel-steem/issues"
   },
   "keywords": [
     "steem",
     "blockchain",
     "wallet"
   ],
-  "homepage": "https://github.com/aaroncox/vessel",
+  "homepage": "https://github.com/aaroncox/vessel-steem",
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/internals/mocks/fileMock.js",
